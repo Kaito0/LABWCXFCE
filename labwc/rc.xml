@@ -2,7 +2,7 @@
 <labwc_config>
   <keyboard>
     <default/>
-    <!-- The W- prefix refers to the Super key -->
+   
     <keybind key="W-space">
       <action name="Execute" command="fuzzel"/>
     </keybind>
