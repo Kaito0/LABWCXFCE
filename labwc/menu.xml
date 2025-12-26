@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu>
+<menu id="root-menu" label="root-menu">
+  <menu id="Accessories" label="Accessories">
+    <item label="AppImageUpdate (255-a211784)">
+      <action name="Execute"><command>/home/niki/Applications/AppImageUpdate-x86_64.AppImage</command></action>
+    </item>
+    <item label="appimageupdatetool (255-a211784)">
+      <action name="Execute"><command>/home/niki/Applications/appimageupdatetool-x86_64.AppImage</command></action>
+    </item>
+    <item label="Arch">
+      <action name="Execute"><command>/nix/store/z9ry9x4f5g61kmmmwv5a8ydjxhvapr7n-distrobox-1.8.2.2/bin/distrobox enter  arch</command></action>
+    </item>
+    <item label="Ark">
+      <action name="Execute"><command>ark</command></action>
+    </item>
+    <item label="Bulk Rename">
+      <action name="Execute"><command>thunar --bulk-rename</command></action>
+    </item>
+    <item label="Cursor">
+      <action name="Execute"><command>cursor</command></action>
+    </item>
+    <item label="DistroShelf">
+      <action name="Execute"><command>distroshelf</command></action>
+    </item>
+    <item label="Emoji Selector">
+      <action name="Execute"><command>plasma-emojier</command></action>
+    </item>
+    <item label="File Roller">
+      <action name="Execute"><command>file-roller</command></action>
+    </item>
+    <item label="Filen Desktop">
+      <action name="Execute"><command>filen-desktop</command></action>
+    </item>
+    <item label="Kate">
+      <action name="Execute"><command>kate -b</command></action>
+    </item>
+    <item label="KeePassXC">
+      <action name="Execute"><command>keepassxc</command></action>
+    </item>
+    <item label="KWrite">
+      <action name="Execute"><command>kwrite</command></action>
+    </item>
+    <item label="Spectacle">
+      <action name="Execute"><command>/nix/store/glm1sf9q4b436kwg9xl8dfqh66n4sd1c-spectacle-6.5.4/bin/spectacle</command></action>
+    </item>
+    <item label="Thunar File Manager">
+      <action name="Execute"><command>thunar</command></action>
+    </item>
+    <item label="Windsurf">
+      <action name="Execute"><command>windsurf</command></action>
+    </item>
+    <item label="Xarchiver">
+      <action name="Execute"><command>xarchiver</command></action>
+    </item>
+  </menu> <!-- Accessories -->
+  <menu id="Development" label="Development">
+    <item label="Cursor">
+      <action name="Execute"><command>cursor</command></action>
+    </item>
+    <item label="Geany">
+      <action name="Execute"><command>geany</command></action>
+    </item>
+    <item label="Kate">
+      <action name="Execute"><command>kate -b</command></action>
+    </item>
+    <item label="Lite XL">
+      <action name="Execute"><command>lite-xl</command></action>
+    </item>
+    <item label="Windsurf">
+      <action name="Execute"><command>windsurf</command></action>
+    </item>
+  </menu> <!-- Development -->
+  <menu id="Games" label="Games">
+    <item label="A Monster's Expedition">
+      <action name="Execute"><command>steam-run '/home/niki/Games/A Monster'\''s Expedition/run.sh'</command></action>
+    </item>
+    <item label="Baba is You">
+      <action name="Execute"><command>steam-run '/home/niki/Games/Baba Is You/run.sh'</command></action>
+    </item>
+    <item label="Dolphin Emulator">
+      <action name="Execute"><command>flatpak run --branch=stable --arch=x86_64 --command=/app/bin/dolphin-emu-wrapper org.DolphinEmu.dolphin-emu</command></action>
+    </item>
+    <item label="Hollow Knight">
+      <action name="Execute"><command>"/home/niki/GOG Games/Hollow Knight/start.sh" ""</command></action>
+    </item>
+    <item label="Lossless Scaling">
+      <action name="Execute"><command>steam steam://rungameid/993090</command></action>
+    </item>
+    <item label="PCSX2">
+      <action name="Execute"><command>/home/niki/Applications/pcsx2-v2.5.398-linux-appimage-x64-Qt.AppImage</command></action>
+    </item>
+    <item label="RetroArch">
+      <action name="Execute"><command>steam steam://rungameid/1118310</command></action>
+    </item>
+    <item label="Steam">
+      <action name="Execute"><command>steam</command></action>
+    </item>
+    <item label="TrackMania Nations Forever">
+      <action name="Execute"><command>steam steam://rungameid/11020</command></action>
+    </item>
+  </menu> <!-- Games -->
+  <menu id="Graphics" label="Graphics">
+    <item label="Gwenview">
+      <action name="Execute"><command>gwenview</command></action>
+    </item>
+  </menu> <!-- Graphics -->
+  <menu id="Internet" label="Internet">
+    <item label="Filen Desktop">
+      <action name="Execute"><command>filen-desktop</command></action>
+    </item>
+    <item label="Helium (0.7.6.1)">
+      <action name="Execute"><command>/home/niki/Applications/helium-0.7.6.1-x86_64.AppImage</command></action>
+    </item>
+    <item label="NetworkManager Dmenu">
+      <action name="Execute"><command>networkmanager_dmenu</command></action>
+    </item>
+    <item label="qBittorrent">
+      <action name="Execute"><command>flatpak run --branch=stable --arch=x86_64 --command=qbittorrent --file-forwarding org.qbittorrent.qBittorrent @@u  @@</command></action>
+    </item>
+    <item label="Steam">
+      <action name="Execute"><command>steam</command></action>
+    </item>
+  </menu> <!-- Internet -->
+  <menu id="Multimedia" label="Multimedia">
+    <item label="Audacious">
+      <action name="Execute"><command>audacious</command></action>
+    </item>
+    <item label="mpv Media Player">
+      <action name="Execute"><command>mpv --player-operation-mode=pseudo-gui --</command></action>
+    </item>
+  </menu> <!-- Multimedia -->
+  <menu id="Settings" label="Settings">
+    <item label="AppImageLauncher Settings">
+      <action name="Execute"><command>/home/niki/.local/lib/appimagelauncher-lite/appimagelauncher-lite.AppImage AppImageLauncherSettings</command></action>
+    </item>
+    <item label="Displays">
+      <action name="Execute"><command>wdisplays</command></action>
+    </item>
+    <item label="KDE System Settings">
+      <action name="Execute"><command>systemsettings</command></action>
+    </item>
+    <item label="Labwc Config">
+      <action name="Execute"><command>labwc-tweaks-gtk</command></action>
+    </item>
+    <item label="NetworkManager Dmenu">
+      <action name="Execute"><command>networkmanager_dmenu</command></action>
+    </item>
+    <item label="NVIDIA X Server Settings">
+      <action name="Execute"><command>nvidia-settings</command></action>
+    </item>
+    <item label="Removable Drives and Media">
+      <action name="Execute"><command>thunar-volman-settings</command></action>
+    </item>
+    <item label="System Settings">
+      <action name="Execute"><command>systemsettings</command></action>
+    </item>
+    <item label="Thunar Preferences">
+      <action name="Execute"><command>thunar-settings</command></action>
+    </item>
+  </menu> <!-- Settings -->
+  <menu id="System" label="System">
+    <item label="Arch">
+      <action name="Execute"><command>/nix/store/z9ry9x4f5g61kmmmwv5a8ydjxhvapr7n-distrobox-1.8.2.2/bin/distrobox enter  arch</command></action>
+    </item>
+    <item label="Crashed Processes Viewer">
+      <action name="Execute"><command>drkonqi-coredump-gui</command></action>
+    </item>
+    <item label="Discover">
+      <action name="Execute"><command>plasma-discover</command></action>
+    </item>
+    <item label="Dolphin">
+      <action name="Execute"><command>dolphin</command></action>
+    </item>
+    <item label="Dolphin Emulator">
+      <action name="Execute"><command>flatpak run --branch=stable --arch=x86_64 --command=/app/bin/dolphin-emu-wrapper org.DolphinEmu.dolphin-emu</command></action>
+    </item>
+    <item label="Info Center">
+      <action name="Execute"><command>kinfocenter</command></action>
+    </item>
+    <item label="kitty">
+      <action name="Execute"><command>kitty</command></action>
+    </item>
+    <item label="Konsole">
+      <action name="Execute"><command>konsole</command></action>
+    </item>
+    <item label="KWalletManager">
+      <action name="Execute"><command>kwalletmanager5</command></action>
+    </item>
+    <item label="Labwc Config">
+      <action name="Execute"><command>labwc-tweaks-gtk</command></action>
+    </item>
+    <item label="Menu Editor">
+      <action name="Execute"><command>kmenuedit</command></action>
+    </item>
+    <item label="NixOS Manual">
+      <action name="Execute"><command>nixos-help</command></action>
+    </item>
+    <item label="PCSX2">
+      <action name="Execute"><command>/home/niki/Applications/pcsx2-v2.5.398-linux-appimage-x64-Qt.AppImage</command></action>
+    </item>
+    <item label="System Monitor">
+      <action name="Execute"><command>plasma-systemmonitor</command></action>
+    </item>
+    <item label="Thunar File Manager">
+      <action name="Execute"><command>thunar</command></action>
+    </item>
+    <item label="XTerm">
+      <action name="Execute"><command>xterm</command></action>
+    </item>
+  </menu> <!-- System -->
+  <menu id="Other" label="Other">
+    <item label="Android Keyboard (AOSP)">
+      <action name="Execute"><command>waydroid app launch com.android.inputmethod.latin</command></action>
+    </item>
+    <item label="Beatbump">
+      <action name="Execute"><command>/nix/store/zasdmi8y9mjpi4hzcsndd0m3078l8lmh-microsoft-edge-stable-119.0.2151.72/opt/microsoft/msedge/microsoft-edge --profile-directory=Default --app-id=fdjplmifloonnpfpoagnlpdgnhinhmkh --app-url=https://beatbump.io/</command></action>
+    </item>
+    <item label="Calculator">
+      <action name="Execute"><command>waydroid app launch com.android.calculator2</command></action>
+    </item>
+    <item label="Calendar">
+      <action name="Execute"><command>waydroid app launch org.lineageos.etar</command></action>
+    </item>
+    <item label="Camera">
+      <action name="Execute"><command>waydroid app launch com.android.camera2</command></action>
+    </item>
+    <item label="Clock">
+      <action name="Execute"><command>waydroid app launch com.android.deskclock</command></action>
+    </item>
+    <item label="Contacts">
+      <action name="Execute"><command>waydroid app launch com.android.contacts</command></action>
+    </item>
+    <item label="Filen">
+      <action name="Execute"><command>/nix/store/pyd78s9xljx84mgsh38yjkygw9440nwy-microsoft-edge-stable-119.0.2151.72/opt/microsoft/msedge/microsoft-edge --profile-directory=Default --app-id=pnneabcgfcofalpghbfmnjholegeinoj "--app-url=https://drive.filen.io/#/d6ddc323-f619-423a-9709-54d14e604290"</command></action>
+    </item>
+    <item label="Miniflux">
+      <action name="Execute"><command>/nix/store/zasdmi8y9mjpi4hzcsndd0m3078l8lmh-microsoft-edge-stable-119.0.2151.72/opt/microsoft/msedge/microsoft-edge --profile-directory=Default --app-id=dlbmfdiobcnhnfocmenonncepnmhpckd --app-url=http://127.0.0.1/</command></action>
+    </item>
+    <item label="Obsidian">
+      <action name="Execute"><command>/home/niki/Applications/Obsidian.AppImage</command></action>
+    </item>
+    <item label="Photopea">
+      <action name="Execute"><command>/nix/store/zasdmi8y9mjpi4hzcsndd0m3078l8lmh-microsoft-edge-stable-119.0.2151.72/opt/microsoft/msedge/microsoft-edge --profile-directory=Default --app-id=jdklklfpinionkgpmghaghehojplfjio "--app-url=https://www.photopea.com/?utm_source=homescreen"</command></action>
+    </item>
+    <item label="Recorder">
+      <action name="Execute"><command>waydroid app launch org.lineageos.recorder</command></action>
+    </item>
+    <item label="Tachidesk">
+      <action name="Execute"><command>/nix/store/zasdmi8y9mjpi4hzcsndd0m3078l8lmh-microsoft-edge-stable-119.0.2151.72/opt/microsoft/msedge/microsoft-edge --profile-directory=Default --app-id=plgnjgipfdfhlgobmbggkeigledakilf --app-url=http://127.0.0.1:4567/</command></action>
+    </item>
+    <item label="YouTube">
+      <action name="Execute"><command>microsoft-edge-stable --profile-directory=Default --app-id=agimnkijcaahngcdmfeangaknmldooml "--app-url=https://www.youtube.com/?feature=ytca"</command></action>
+    </item>
+    <item label="YouTube Music">
+      <action name="Execute"><command>/nix/store/zasdmi8y9mjpi4hzcsndd0m3078l8lmh-microsoft-edge-stable-119.0.2151.72/opt/microsoft/msedge/microsoft-edge --profile-directory=Default --app-id=cinhimbnkkaeohfgghhklpknlkffjgod "--app-url=https://music.youtube.com/?source=pwa"</command></action>
+    </item>
+  </menu> <!-- Other -->
+</menu> <!-- root-menu -->
+</openbox_menu>

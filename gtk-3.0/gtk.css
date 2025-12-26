@@ -1,0 +1,137 @@
+/* Title    : gtk.css Transparent Mode
+    Updated  : Font to Noto Sans Medium, Full Transparency
+*/
+
+/* Set the Global Font for the Panel */
+.xfce4-panel.panel,
+#whiskermenu-window,
+#docklike-plugin {
+    font-family: "Noto Sans Medium", "Noto Sans", sans-serif;
+}
+
+/* Scaling for System Icons */
+#pulseaudio-button image,
+#xfce4-power-manager-plugin image,
+#xfce4-notification-plugin image { 
+    -gtk-icon-transform: scale(0.60); 
+}
+
+/* Main Panel Background - Set to fully transparent */
+.xfce4-panel.panel {
+    background-color: transparent;
+    background-image: none;
+    font-weight: 500; /* Medium weight */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Shadow for readability */
+    -gtk-icon-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    border: none;
+    box-shadow: none;
+}
+
+/* Panel Buttons (Tasklist, Plugins) */
+.xfce4-panel.panel button.flat, 
+.xfce4-panel.panel button.sidebar-button,
+#docklike-plugin button {
+    color: #ffffff; /* White text */
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* Hover state for buttons - light subtle highlight */
+.xfce4-panel.panel button.flat:hover, 
+.xfce4-panel.panel button.sidebar-button:hover,
+#docklike-plugin .hover_group {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+}
+
+/* Active/Checked state */
+.xfce4-panel.panel button.flat:active, 
+.xfce4-panel.panel button.flat:checked,
+#docklike-plugin .active_group {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+/* Vala Panel / Global menu adjustments */
+.-vala-panel-appmenu-private {
+    background-color: transparent;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+menubar.-vala-panel-appmenu-bold > menuitem > label {
+    color: #ffffff;
+    font-family: "Noto Sans Medium";
+}
+
+/* Docklike Plugin Specifics */
+#docklike-plugin {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 14px;
+    margin: 0px;
+    padding: 0px;
+    border: 1.5px solid rgba(255, 255, 255, 0.3);
+    border-radius: 14px;
+
+}
+
+#docklike-plugin .window_count { 
+    color: #ffffff; 
+    text-shadow: 1px 1px 1px black;
+}
+
+#docklike-plugin .open_group, 
+#docklike-plugin .active_group { 
+    background-color: transparent; 
+}
+
+/* Launcher Plugin Settings */
+.xfce4-panel.panel .launcher {
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    box-shadow: none;
+    -gtk-icon-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+
+}
+
+.xfce4-panel.panel .launcher button {
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+
+}
+
+.xfce4-panel.panel .launcher button:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Subtle hover effect */
+    border: none;
+}
+
+.xfce4-panel.panel .launcher button:active,
+.xfce4-panel.panel .launcher button:checked {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+}
+
+/* Clock Plugin Settings */
+#clock-button {
+    background-color: transparent;
+    background-image: none;
+    border: none;
+}
+
+#clock-button label {
+    font-family: "Noto Sans Medium";
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    padding: 0 4px; /* Optional: adds a little breathing room around the time */
+}
+
+#clock-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}

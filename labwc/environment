@@ -1,0 +1,10 @@
+# Add this to ~/.config/labwc/environment
+#XDG_DATA_DIRS=$XDG_DATA_DIRS:/run/current-system/sw/share/gsettings-schemas/gsettings-desktop-schemas-49.1/glib-2.0/schemas
+  export XDG_DATA_DIRS=$GSETTINGS_SCHEMAS_PATH:$XDG_DATA_DIRS
+  XDG_CURRENT_DESKTOP = "labwc";
+  XDG_SESSION_DESKTOP = "labwc";
+XCURSOR_THEME=Bibata-Modern-Ice
+XCURSOR_SIZE=21
+  GTK_ICON_THEME = "Papirus-Light";
+  QT_QPA_PLATFORMTHEME = "gtk3";
+

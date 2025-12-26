@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<labwc_config>
+  <keyboard>
+    <default/>
+    <!-- The W- prefix refers to the Super key -->
+    <keybind key="W-space">
+      <action name="Execute" command="fuzzel"/>
+    </keybind>
+    <keybind key="W-z">
+      <action name="Execute" command="fuzzel --show drun"/>
+    </keybind>
+  </keyboard>
+  <theme>
+    <cornerRadius>14</cornerRadius>
+    <name>GTK</name>
+    <dropShadows>yes</dropShadows>
+    <dropShadowsOnTiled>yes</dropShadowsOnTiled>
+    <icon>Papirus-Light</icon>
+    <font name="Noto Sans" size="10" />
+
+  <font place="ActiveWindow" name="Noto Sans Medium" size="10" />
+  <font place="InactiveWindow" name="Noto Sans" size="10" />
+  <font place="MenuHeader" name="Noto Sans Medium" size="10" />
+  <font place="MenuItem" name="Noto Sans" size="10" />
+  <font place="OnScreenDisplay" name="Noto Sans Medium" size="10" /> 
+
+ </theme>
+  <windowRules>
+    <windowRule identifier="rofi" serverSideDecoration="yes"/>
+  </windowRules>
+  <osd>
+    <preview>yes</preview>
+    <style>thumbnail</style>
+  </osd>
+  <windowSwitcher show="yes" style="thumbnail" preview="yes" outlines="yes">
+    <fields>
+      <field content="icon" width="5%"/>
+      <field content="title" width="95%"/>
+    </fields>
+  </windowSwitcher>
+  <libinput>
+    <device>
+      <naturalScroll/>
+    </device>
+  </libinput>
+</labwc_config>
